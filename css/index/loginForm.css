@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.login {width: 100%; max-width: 500px; height: auto; margin: 50px auto; border: 0px solid; box-sizing: border-box; padding: 20px 10px; box-shadow: 1px 1px 10px #000;}
+.login .inner-login {width: 100%; height: auto; border: 1px solid #ccc; box-sizing: border-box; /*    padding: 5px 30px;*/}
+.login .inner-login h1.title {width: 100%; line-height: 100px; text-align: center; border: 0px solid; box-sizing: border-box; background: #000; color: #fff; letter-spacing: 5px;}
+.login .inner-login .login-con {width: 100%; height: auto; border: 0px solid #00f; box-sizing: border-box; padding-top: 50px;}
+.login .inner-login .login-con ul > li {border: 1px solid #ccc5; box-sizing: border-box;}
+.login .inner-login .login-con ul > li.in1{padding: 15px 0;}
+.login .inner-login .login-con ul > li.in1::after{content: ""; display: block; clear: both;}
+.login .inner-login .login-con ul > li.in1 .left-con {width: 20%; max-width: 120px; height: auto; border: 0px solid; box-sizing: border-box; float: left;}
+.login .inner-login .login-con ul > li.in1 .left-con label{display: block; line-height: 30px; text-align: left; text-indent: 10px;}
+.login .inner-login .login-con ul > li.in1.liOne .right-con input[type=text],input[type=password]{display: block; width: 50%; max-width: 480px; height: 26px; margin-top: 2px; border: 1px solid #ccc; box-sizing: border-box; text-indent: 10px;}
+.login .inner-login .login-con ul > li.in1.liOne .right-con input.sub1:focus{outline: 5px solid #000a; background: #000a; color: #fff;}
+.login .inner-login .loginin-con ul > li.in1 .right-con {width: 80%; max-width: 480px; height: auto; border: 0px solid; padding-left: 10px; box-sizing: border-box; /*    background: #0f0f;*/ float: left; text-indent: 10px ;}
+.login .inner-login .login-con ul > li.in1 .right-con input,select{height: 26px; margin: 2px 0; box-sizing: border-box;}
+.login .inner-login .login-con ul > li.in3{padding: 16px 0; text-align: center; background: #ccc; margin-top: 30px;}    
+.login .inner-login .login-con ul > li.in3 input{width:25%; max-width: 150px; height: 30px; border: 0; background: #000; color: #fff; cursor: pointer;}
+.login .inner-login .login-con ul > li.in3 input:hover{background: #c0c; color: #fff;}

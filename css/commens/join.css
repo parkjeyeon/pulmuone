@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+
+
+.container {width: 100%; height: auto;}
+.container .inner-container {width: 100%; height: auto;}
+.container .inner-container h2 {display: inline-block; color: #283e29; font-size: 18px; line-height: 30px; font-family: 'dotum'; font-weight: bold; letter-spacing: -1px; margin-bottom: 5px;}
+.container .inner-container .name {width: 496px; height: 70px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px;}
+.container .inner-container .name p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 3px;}
+.container .inner-container .name .inner-name {width: 490px; height: 36px; border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .name .inner-name input {width: 470px; height: 28px; margin: 3px 0 0 8px; border: none;}
+.container .inner-container .id {width: 496px; height: 70px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px; margin-top: 5px;}
+.container .inner-container .id p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 3px;}
+.container .inner-container .id .ids {display: flex; justify-content: space-between;}
+.container .inner-container .id .inner-id {width: 408px; height: 36px; border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .id .inner-id input {width: 393px; height: 28px; margin: 4px 0 0 8px; border: none;}
+.container .inner-container .id .inner-idbtn input {width: 78px; height: 39px; border: 1px solid #bfbfbf; border-radius: 3px; color: #4c4c4c; font: normal 12px 'dotum'; cursor: pointer;}
+.container .inner-container .pw {width: 496px; height: 100px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px; margin-top: 5px;}
+.container .inner-container .pw p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 2px;}
+.container .inner-container .pw ul {padding-bottom: 2px;}
+.container .inner-container .pw ul>li {font-size: 12px; font-family: 'dotum'; color: #999; line-height: 1.3;}
+.container .inner-container .pw .inner-pw {width: 490px; height: 36px; border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .pw .inner-pw input {width: 470px; height: 28px; margin: 3px 0 0 8px; border: none;}
+.container .inner-container .pwconfirm {width: 496px; height: 70px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px; margin-top: 5px;}
+.container .inner-container .pwconfirm .inner-pwconfirm {width: 490px; height: 36px; border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .pwconfirm p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 2px;}
+.container .inner-container .pwconfirm .inner-pwconfirm input {width: 470px; height: 28px; margin: 3px 0 0 8px; border: none;}
+.container .inner-container .number {width: 496px; height: 70px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px; margin-top: 5px;}
+.container .inner-container .number p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 3px;}
+.container .inner-container .number .inner-number {width: 490px; height: 36px;}
+.container .inner-container .number .inner-number ul {display: flex; justify-content: space-between;}
+.container .inner-container .number .inner-number ul>li {border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .number .inner-number ul>li select#phone {width: 140px; height: 32px; border: none;}
+.container .inner-container .number .inner-number ul>li input {width: 140px; height: 27px; border: none; margin-top: 3px;}
+.container .inner-container .email {width: 496px; height: 70px; border: 2px solid #e0e0e0; border-radius: 10px; padding: 5px 10px 5px 10px; margin-top: 5px;}
+.container .inner-container .email p {color: #333; font: normal 15px 'dotum'; line-height: 24px; margin-bottom: 3px;}
+.container .inner-container .email .emails {display: flex; justify-content: space-between;}
+.container .inner-container .email .inner-email {width: 408px; height: 36px; border: 2px solid #e0e0e0; border-radius: 5px;}
+.container .inner-container .email .inner-email input {width: 393px; height: 28px; margin: 4px 0 0 7px; border: none;}
+.container .inner-container .email .inner-btn input {width: 78px; height: 39px; border: 1px solid #bfbfbf; border-radius: 3px; color: #4c4c4c; font: normal 12px 'dotum'; cursor: pointer;}
+.container .inner-container .btn_grn {padding-top: 20px;}
+.container .inner-container .btn_grn input{width: 520px; height: 54px; display: block; color: #fff; font: bold 18px 'dotum'; line-height: 54px; background: #428f3b; border: 1px solid #428f3b; border-radius: 10px; cursor: pointer;}
+
+
+/* footer */
+.footer .inner-footer .top {right: 20px; bottom: 0px; position: fixed; cursor: pointer;}

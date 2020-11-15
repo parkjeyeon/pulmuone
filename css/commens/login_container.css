@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+
+
+.container {width: 100%; height: auto;}
+.container .inner-container {width: 100%; max-width: 1000px; height: auto; margin: 0 auto;}
+.container .inner-container h1.title_top {margin: 37px 0 20px; font-size: 30px; font-weight: 700; color: #6C4C40;}
+.container .inner-container .contentpop {width: 100%; padding: 20px 0;}
+.container .inner-container .contentpop .pop_section1 {margin: 0 13px; text-align: center;}
+.container .inner-container .contentpop .pop_section1 .section_sso {border-bottom: 1px solid #e5e6e8; padding: 0 2px 2px 0;}
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner {margin: 10px 15px 40px; font-size: 15px; font-weight: 300; color: #666;}
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner p {line-height: 140%; margin-bottom: 15px;}
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner a {border: 1px solid #c4c4c4; border-radius: 7px; padding: 19px 77px; text-align: center; display: inline-block; margin: 0 auto;}
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner a:hover {box-shadow: 2px 2px 2px 2px #0000001f;}
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner a img {display: block; margin: 0 auto;} 
+.container .inner-container .contentpop .pop_section1 .section_sso .section_inner a strong {color: #000; font-size: 24px; font-weight: 500;}
+.container .inner-container .contentpop .pop_section1 .section_sns {margin: 10px 15px; margin-top: 40px;}
+.container .inner-container .contentpop .pop_section1 .section_sns h3 {margin-bottom: 5px; word-break: break-all;}
+.container .inner-container .contentpop .pop_section1 .section_sns p {margin: 15px 0 15px 0; font-size: 15px; font-weight: 300; color: #666; line-height: 140%;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li {margin: 7px auto; width: 335px;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li:hover {box-shadow: 2px 2px 2px 2px #0000001f;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_naver {width: 335px; height: 44px; border-radius: 3px; background: url(../../img/login/ico_sns_naver.png) left center no-repeat; background-color:  #1ec800; border: 1px solid #17aa02; box-sizing: border-box;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_naver a {color: #fff; text-align: center;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_kakao {width: 335px; height: 44px; border-radius: 3px; background: url(../../img/login/ico_sns_kakao.png) left center no-repeat; background-color: #fce000; border: 1px solid #dfc811; box-sizing: border-box;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_kakao a {color: #3c1e20; text-align: center;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_facebook {width: 335px; height: 44px; border-radius: 3px; background: url(../../img/login/ico_sns_facebook.png) left center no-repeat; background-color: #3b5998; border: 1px solid #163d91; box-sizing: border-box;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li.sns_facebook a {color: #fff; text-align: center;}
+.container .inner-container .contentpop .pop_section1 .section_sns ul>li a{display: block; box-sizing: border-box; width: 100%; height: 44px; line-height: 40px; border-radius: 3px; padding: 2px 4px; font-size: 16px; text-align: left; vertical-align: middle;}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel=" shortcut icon" href="./img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풀무원 베이비빌</title>
+    <link rel="stylesheet" href="./css/index/index.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="top-menu">
+                    <h1 class="logo"><a href="./index.html"><img src="./img/index/logo_baby.png" alt="풀무원 베이비밀"></a></h1>
+                    <div class="golink">
+                        <ul>
+                            <li><a href="./login.html">로그인</a></li>
+                            <li><a href="./join.html" target="_blank">회원가입</a></li>
+                            <li><a href="#">장바구니</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-menu">
+                    <div class="main-gnb">
+                        <ul>
+                            <li>
+                                <span><a href="#"><em>주문하기</em></a></span>
+                            </li>
+                            <li>
+                                <span><a href="#">이유식·유아식</a></span>
+                            </li>
+                            <li>
+                                <span><a href="#">이벤트/서비스</a></span>
+                            </li>
+                            <li>
+                                <span><a href="#">브랜드 스토리</a></span>
+                            </li>
+                            <li>
+                                <span><a href="#">고객센터</a></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sub-gnb">
+                    <div class="inner-subgnb">
+                        <ul class=scroll>
+                            <li class=btl>베이비밀(첫돌 이전)</li>
+                            <li><a href="#">초기1[쌀미음]</a></li>
+                            <li><a href="#">초기2</a></li>
+                            <li><a href="#">중기</a></li>
+                            <li><a href="#">후기2팩</a></li>
+                            <li><a href="#">후기3팩</a></li>
+                            <li><a href="#">병행기</a></li>
+                            <li><a href="#">완료기2팩</a></li>
+                            <li class=mb><a href="#">완료기3팩</a></li>
+                            <li class=btl>키즈밀</li>
+                            <li><a href="#">영양덮밥2팩</a></li>
+                            <li><a href="#">영양덮밥3팩</a></li>
+                            <li><a href="#">영양덮밥플러스</a></li>
+                            <li class=btl>간식</li>
+                            <li><a href="#">퓨레</a></li>
+                            <li class=btl>건강식품</li>
+                            <li><a href="#">유산균</a></li>
+                            <br>
+                            <br>
+                        </ul>
+                        <ul>
+                            <li class=btl>오늘의 식단</li>
+                            <li><a href="#">이유식단계</a></li>
+                            <li class=mb><a href="#">유아식단계</a></li>
+                            <li class=btl>베이비밀 가이드</li>
+                            <li><a href="#">월령별 맞춤 프로그램</a></li>
+                            <li><a href="#">구매가이드</a></li>
+                        </ul>
+                        <ul>
+                            <li class=btl>이벤트</li>
+                            <li><a href="#">베이비밀 체험단</a></li>
+                            <li class=mb><a href="#">진행중인 이벤트</a></li>
+                            <li class=btl>서비스</li>
+                            <li><a href="#">고객 등급별 쿠폰 혜택</a></li>
+                            <li><a href="#">신선배달</a></li>
+                        </ul>
+                        <ul>
+                            <li class=btl>브랜드스토리</li>
+                            <li><a href="#">베이비밀 연혁</a></li>
+                            <li><a href="#">바른제조</a></li>
+                            <li><a href="#">바른재료</a></li>
+                            <li><a href="#">바른성장</a></li>
+                            <li><a href="#">바른입맛</a></li>
+                        </ul>
+                        <ul>
+                            <li class=btl>공지사항</li>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">1:1문의하기</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">외부몰 주문조회</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let mgnbLi = $('.main-gnb>ul>li');
+            let submenu = $('.sub-gnb')
+
+            mgnbLi.on('mouseenter', function(e) {
+                e.preventDefault();
+                //                submenu.slideDown();
+                submenu.stop().slideDown();
+            })
+            submenu.on('mouseleave', function(e) {
+                e.preventDefault();
+                submenu.stop().slideUp();
+                //                submenu.slideUp();
+            })
+
+        </script>
+        <div class="container">
+            <div class="inner-container">
+                <div class="gallery">
+                    <div class="inner-gallery">
+                        <div class="gallery-con">
+                            <ul>
+                                <li>
+                                    <div class="con">
+                                        <div class="lCon"><a href="#">자세히보기</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="con">
+                                        <div class="lCon"><a href="#">자세히보기</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="con">
+                                        <div class="lCon"><a href="#">자세히보기</a></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="con">
+                                        <div class="lCon"><a href="#">자세히보기</a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <script>
+                            $(document).ready(function() {
+                                $(".lCon").click(function() {
+                                    alert("해당 페이지로 이동합니다.");
+                                });
+                            });
+
+                        </script>
+                        <div class="items">
+                            <ul>
+                                <li class="on"><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <script src="js/fade.js"></script>
+                <div class="section sec1">
+                    <div class="inner-sec1">
+                        <p></p>
+                        <span class="arrow arrowleft">
+                            <img src="./img/index/left_arrow.png" alt="left_arrow">
+                        </span>
+                        <div class="product_scrolloer">
+                            <div class="product">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <span class="arrow arrowright">
+                            <img src="./img/index/right_arrow.png" alt="right_arrow">
+                        </span>
+                    </div>
+                </div>
+                <script src="js/append.js"></script>
+                <div class="section sec2">
+                    <div class="inner-sec2">
+                        <div class="sec_cont event">
+                            <h3>EVENT</h3>
+                            <span class="event_btn left">
+                                <img src="./img/index/event_scroller_left_arrow.png" alt="왼쪽버튼">
+                            </span>
+                            <div class="inner-event">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./img/index/eventslid_0.jpg" alt="event">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./img/index/eventslid_1.jpg" alt="event">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <span class="event_btn right">
+                                <img src="./img/index/event_scroller_right_arrow.png" alt="오른쪽버튼">
+                            </span>
+                        </div>
+                        <script src="js/eventappend.js"></script>
+                        <div class="sec_cont">
+                            <h3>이유식 신청</h3>
+                            <a href="#"><img src="./img/index/free_img.jpg" alt="free_img"></a>
+                        </div>
+                        <div class="sec_cont">
+                            <h3>배송스케쥴 조정</h3>
+                            <a href="#"><img src="./img/index/deliver_img.jpg" alt="deliver_img"></a>
+                        </div>
+                        <div class="sec_cont service">
+                            <h3>고객센터</h3>
+                            <div class="inner-service">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./img/index/cslide_0.jpg" alt="service">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./img/index/cslide_1.jpg" alt="service">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tabs">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <script src="js/servicefade.js"></script>
+                    </div>
+                </div>
+                <div class="section sec3">
+                    <div class="inner-sec3">
+                        <div class="notice">
+                            <h2>공지사항</h2>
+                            <table>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>제목</th>
+                                    <th>등록일</th>
+                                    <th>조회수</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#">초기이유식 7+7 이벤트 증정 안내</a></td>
+                                    <td>2020.09.24</td>
+                                    <td>106</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td><a href="#">9~10월 배송휴무 안내</a></td>
+                                    <td>2020.09.11</td>
+                                    <td>2334</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td><a href="#">8월 임시공휴일 휴무안내</a></td>
+                                    <td>2020.08.03</td>
+                                    <td>1160</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td><a href="#">서버작업 관련 잠시간 사이트 이용 불가 안내</a></td>
+                                    <td>2020.07.10</td>
+                                    <td>340</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td><a href="#">출석체크 쿠폰 서비스 종료 안내</a></td>
+                                    <td>2020.07.06</td>
+                                    <td>173</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td><a href="#">사이트 디자인 개편으로 인한 사이트 이용 불가 안내</a></td>
+                                    <td>2020.06.30</td>
+                                    <td>206</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td><a href="#">홈페이지 서버 작업 안내</a></td>
+                                    <td>2020.06.10</td>
+                                    <td>120</td>
+                                </tr>
+                                <tr>
+                                    <td>8</td>
+                                    <td><a href="#">럭키박스 배송지연 안내</a></td>
+                                    <td>2020.04.16</td>
+                                    <td>662</td>
+                                </tr>
+                                <tr>
+                                    <td>9</td>
+                                    <td><a href="#">4-5월 배송휴무 안내</a></td>
+                                    <td>2020.04.08</td>
+                                    <td>2031</td>
+                                </tr>
+                                <tr>
+                                    <td>10</td>
+                                    <td><a href="#">3월 럭키박스 대상자 발표 지연 안내</a></td>
+                                    <td>2020.04.08</td>
+                                    <td>337</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="youtube">
+                            <h2>바른먹거리 캠페인</h2>
+                            <iframe width="410" height="318" src="https://www.youtube.com/embed/l_ZoMreghq4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="section sec4">
+                    <div class="inner-sec4">
+                        <h3><img src="./img/index/qslide_01_title.png" alt="qslide_01_title"></h3>
+                        <p><img src="./img/index/qslide_01_txt.png" alt="qslide_01_txt"></p>
+                        <a href="#" class="btn"><img src="./img/index/qslide_01_btn.png" alt=""></a>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function() {
+                        $(".btn").click(function() {
+                            alert("해당 페이지로 이동합니다.");
+                        });
+                    });
+
+                </script>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="top-footer">
+                    <div class="inner-tfooter">
+                        <div class="circle_bg">
+                            <a href="#">
+                                <div class="circle">
+                                    <img src="./img/index/FAQ.png" alt="FAQ">
+                                    <p>FAQ</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="circle">
+                                    <img src="./img/index/question.png" alt="1:1문의">
+                                    <p>1:1문의</p>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="circle">
+                                    <img src="./img/index/map.png" alt="배달지역검색">
+                                    <p>배달지역검색</p>
+                                </div>
+                            </a>
+                        </div>
+                        <script>
+                            $(document).ready(function() {
+                                $(".circle").click(function() {
+                                    alert("해당 페이지로 이동합니다.");
+                                });
+                            });
+
+                        </script>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="inner-bottomft">
+                        <div class="footer_logo">
+                            <img src="./img/index/f_logo.png" alt="하단로고">
+                        </div>
+                        <div class="footer_content">
+                            <div class="footer_nav">
+                                <ul>
+                                    <li><a href="#">회사소개</a></li>
+                                    <li><a href="#">사업자정보확인</a></li>
+                                    <li><a href="#">이용약관</a></li>
+                                    <li><a href="#">고객센터</a></li>
+                                    <li><a href="#">개인정보처리방침</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer_address">
+                                <address>
+                                    <strong>(주)풀무원녹즙</strong>
+                                    <br>
+                                    <p>
+                                        대표자 : 김기석 | 주소 : 서울특별시 강남구 광평로 280 (수서동, 로즈데일빌딩)<br>
+                                        사업자등록번호 : 301-81-98406<br>
+                                        통신판매업신고 : 제2016충북증평 00045호 ｜ 건강기능식품 신고 : 제2005-0107517호<br>
+                                        호스팅 제공자 : ㈜ 풀무원녹즙 | 고객센터 : 080-800-0433<br>
+                                    </p>
+                                    <p class="Copyright">Copyright ⓒ Pulmuone co.,Ltd All Rights Reserved.</p>
+                                </address>
+                            </div>
+                        </div>
+                        <div class="footer-right">
+                            <h2>고객기쁨센터</h2>
+                            <div class="phonenum"><img src="./img/index/ico-cc-tell.png" alt="전화기">080.800.0433</div>
+                            <h3>기쁨센터 업무시간</h3>
+                            <p>
+                                평일 : 09:00 ~ 18:00 (토/일/공휴일 휴무)<br>
+                                카카오톡 Yellow ID : 풀무원 베이비앤키즈
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
